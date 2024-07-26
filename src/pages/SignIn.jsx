@@ -1,9 +1,7 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-export default class SignIn extends Component {
-  render() {
-    return (
-      <div>SignIn</div>
-    )
-  }
+export default function SignIn() {
+  return (
+    <div>SignIn</div>
+  )
 }
